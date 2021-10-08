@@ -1,0 +1,10 @@
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+@import 'header';
+@import 'colour';
+
+#hero{
+    height: 400px;
+    width: 100%;
+    background: gray;
+}
