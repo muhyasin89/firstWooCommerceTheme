@@ -4,7 +4,7 @@
 
         <title></title>
         <?php wp_head(); ?>
-        <script src="https://unpkg.com/@pluginjs/animate-text/dist/animate-text.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/@pluginjs/animate-text/dist/animate-text.css">
     </head>
     <body  <?php body_class('test');?>>
     <header>

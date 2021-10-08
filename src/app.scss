@@ -1,10 +1,46 @@
 @import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/font-awesome-animation/font-awesome-animation';
 
 @import 'header';
 @import 'colour';
 
+$small: 300px;
+$medium: 900px;
+
+body{
+    overflow-x: hidden;
+}
+
 #hero{
-    height: 400px;
     width: 100%;
     background: gray;
+
+    h1{
+        position: absolute;
+        bottom:2.5%;
+        left: 30%;
+        color: honeydew;
+    }
+
+    @media screen and (max-width: $small) {
+        h1{
+            position: absolute;
+            bottom:10%;
+            left: 30%;
+            color: honeydew;
+        }
+    }
+
+    @media screen and (min-width: $medium) {
+        h1{
+            position: absolute;
+            bottom:10%;
+            left: 30%;
+            color: honeydew;
+        }
+    }
+}
+
+.content{
+    position:sticky;
 }

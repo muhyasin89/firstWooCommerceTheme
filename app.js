@@ -4423,9 +4423,17 @@ anime.random = function (min, max) { return Math.floor(Math.random() * (max - mi
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap.esm.js");
-/* harmony import */ var animejs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! animejs */ "./node_modules/animejs/lib/anime.es.js");
+/* harmony import */ var animejs_lib_anime_es_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! animejs/lib/anime.es.js */ "./node_modules/animejs/lib/anime.es.js");
 
 
+(0,animejs_lib_anime_es_js__WEBPACK_IMPORTED_MODULE_1__["default"])({
+  targets: '#hero',
+  translateX: 0,
+  opacity: ['0', '1'],
+  easing: 'easeInOutExpo',
+  backgroundColor: '#FFF',
+  duration: 1500
+});
 
 /***/ }),
 
